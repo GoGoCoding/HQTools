@@ -210,7 +210,7 @@ static HQGCDQueue *backgroundPriorityGlobalQueue;
 }
 
 
-+(void)applyInGlobalQueue:(void (^)(size_t))block{
++(void)applyInGlobalQueue:(void (^)(size_t)) __attribute__((noescape)) block {
     if (!block) {
         return;
     }
@@ -281,7 +281,7 @@ static HQGCDQueue *backgroundPriorityGlobalQueue;
 }
 
 
--(void)apply:(void (^)(size_t index))block{
+-(void)apply:(void (^)(size_t index)) __attribute__((noescape)) block{
     dispatch_apply(5, self.dispatchQueue, ^(size_t i) {
         block(i);
     });
