@@ -85,7 +85,7 @@ if (self == nil) return;
 #define DICTSETSTRING(dict,str,key) if(STRINGNOTNIL(str)){[dict setObject:str forKey:key];}
 
 
-##pragma mark - 单例
+#pragma mark - 单例
 #define SINGLETON_FOR_CLASS(classname) \
 \
 static classname *shared##classname = nil; \
