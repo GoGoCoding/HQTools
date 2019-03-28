@@ -1,4 +1,4 @@
-@version = "0.0.1"
+@version = "0.0.3"
 
 Pod::Spec.new do |s| 
 s.name = "GGCTools" 
@@ -10,7 +10,7 @@ s.license = { :type => 'MIT', :file => 'LICENSE' }
 s.author = { "HaoQi" => "it_haoqi@163.com" } 
 s.ios.deployment_target = '8.0' 
 s.source = { :git => "https://github.com/GoGoCoding/HQTools.git", :tag => "v#{s.version}" } 
-s.source_files = 'Tools/*.{h,m}' 
+s.source_files = 'GGCTools/**' 
 s.requires_arc = true 
 s.framework = "UIKit" 
 end
