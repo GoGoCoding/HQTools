@@ -65,7 +65,7 @@
 		B7450C3221CC98AA0012FD58 = {
 			isa = PBXGroup;
 			children = (
-				B7450C5521CC999B0012FD58 /* Tools */,
+				B7450C5521CC999B0012FD58 /* GGCTools */,
 				B7450C3D21CC98AA0012FD58 /* HQTools */,
 				B7450C3C21CC98AA0012FD58 /* Products */,
 			);
@@ -95,7 +95,7 @@
 			path = HQTools;
 			sourceTree = "<group>";
 		};
-		B7450C5521CC999B0012FD58 /* Tools */ = {
+		B7450C5521CC999B0012FD58 /* GGCTools */ = {
 			isa = PBXGroup;
 			children = (
 				B7450C6E21CC99BE0012FD58 /* HQDefine.h */,
@@ -103,7 +103,7 @@
 				B7568C2521D4BD2D00255828 /* HQGCD */,
 				B7450C6F21CC99BF0012FD58 /* Third */,
 			);
-			path = Tools;
+			path = GGCTools;
 			sourceTree = "<group>";
 		};
 		B7450C6B21CC99BE0012FD58 /* Category */ = {
